@@ -1,0 +1,30 @@
+/*
+ * Class: CMSC201 
+ * Instructor: A. Tanveer
+ * Description: This Program Calculates and Displays the Average Speed of a runner in kph 
+ * Due: 09/03/2016 11:59PM
+ * I pledge that I have completed the programming assignment independently.
+   I have not copied the code from a student or any source.
+   I have not given my code to any student.
+   Print your Name here: David A Verdin
+*/
+public class AvgSpeed { //Public class block defined AvgSpeed
+
+	public static void main(String[] args) { //Public main method block defined
+		
+		final double MILES_TO_KILOS_CONVERSION = 1.6; //Constant Miles to Kilometers conversion
+		
+		int miles = 24; //miles integer variable for number of miles run
+		int hours = 1; //hours integer variable for number of hours it took to run the miles
+		int minutes = 40; //minutes integer variable for number of minutes it took to run minus hours
+		int seconds = 35; //seconds integer variable for number of seconds it took to run minus hours and minutes
+		
+		System.out.println("A runner runs " + miles + " miles in " + hours + " hour(s), " +
+				minutes + " minute(s), and " + seconds + " second(s)."); //output statement containing concatenate strings with self-documenting variable names  
+
+		System.out.println("The average speed is " +
+				(miles/(hours+minutes/60.0+seconds/3600.0)*MILES_TO_KILOS_CONVERSION) + //expression to calculate KPH adding hours and fractions of hours then converting miles to kilos
+				" kilometer(s) per hour."); //output statement containing concatenate strings and expressions with self-documenting variable names
+	}
+
+}
