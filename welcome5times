@@ -1,0 +1,25 @@
+
+/*
+ * Class: CMSC201 
+ * Instructor: A. Tanveer
+ * Description: This Program Displays "Welcome to Java" 5 times
+ * Due: 09/03/2016 11:59PM
+ * I pledge that I have completed the programming assignment independently.
+   I have not copied the code from a student or any source.
+   I have not given my code to any student.
+   Print your Name here: David A Verdin
+*/
+
+
+public class WelcomeTimes5 { //Public class block defined WelcomeTimes5
+
+	public static void main(String[] args) { //Main method block defined
+		System.out.println("Welcome to Java"); //Welcome to Java Display Statement
+		System.out.println("Welcome to Java"); //Welcome to Java Display Statement Again
+		System.out.println("Welcome to Java"); //Welcome to Java Display Statement Again
+		System.out.println("Welcome to Java"); //Welcome to Java Display Statement Again
+		System.out.println("Welcome to Java"); //Welcome to Java Display Statement Again
+
+	} //End of main method block
+
+} //End of WelcomeTimes5 class
